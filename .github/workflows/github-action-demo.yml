@@ -10,7 +10,8 @@ on:
 
 jobs:
   test:
-    runs-on: python:latest
+    runs-on: ubuntu-latest  # Use an appropriate runner environment
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
